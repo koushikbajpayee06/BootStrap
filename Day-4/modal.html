@@ -9,23 +9,72 @@
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </head>
 <body class="p-4">
-    <button class="btn btn-primary">Login</button>
-    <div class="modal" id="login">
-        <div class="modal-dialog">
+    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#login">Login</button>
+    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#offers">Show Offers</button>
+    <div class="modal fade" id="login">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h2 class="bi bi-person-fill">User Login</h2>
+                    <button class="btn btn-close" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body">
                     <dl>
                         <dt>User Name</dt>
-                        <dd><input type="text"></dd>
+                        <dd><input type="text" class="form-control"></dd>
+                        <dt>Password</dt>
+                        <dd><input type="password" class="form-control"></dd>
+                        <dt>User Name</dt>
+                        <dd><input type="text" class="form-control"></dd>
+                        <dt>Password</dt>
+                        <dd><input type="password" class="form-control"></dd>
+                        <dt>User Name</dt>
+                        <dd><input type="text" class="form-control"></dd>
+                        <dt>Password</dt>
+                        <dd><input type="password" class="form-control"></dd>
+                        <dt>User Name</dt>
+                        <dd><input type="text" class="form-control"></dd>
+                        <dt>Password</dt>
+                        <dd><input type="password" class="form-control"></dd>
+                        <dt>User Name</dt>
+                        <dd><input type="text" class="form-control"></dd>
+                        <dt>Password</dt>
+                        <dd><input type="password" class="form-control"></dd>
+                        <dt>User Name</dt>
+                        <dd><input type="text" class="form-control"></dd>
+                        <dt>Password</dt>
+                        <dd><input type="password" class="form-control"></dd>
+                        <dt>User Name</dt>
+                        <dd><input type="text" class="form-control"></dd>
+                        <dt>Password</dt>
+                        <dd><input type="password" class="form-control"></dd>
+                        <dt>User Name</dt>
+                        <dd><input type="text" class="form-control"></dd>
+                        <dt>Password</dt>
+                        <dd><input type="password" class="form-control"></dd>
                     </dl>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary">Login</button>
+                    <button data-bs-dismiss="modal" class="btn btn-danger">Cancel</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="modal" id="offers">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Offers</h3>
+                    <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../public/images/women-fashion.jpg" width="200" height="200">
                 </div>
                 <div class="modal-footer"></div>
             </div>
         </div>
-
     </div>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur aspernatur minus quod iure dolor eveniet nam qui blanditiis a, quae ipsum nihil corporis doloribus quo laboriosam. Eos nihil ipsa necessitatibus!</p>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur aspernatur minus quod iure dolor eveniet nam qui blanditiis a, quae ipsum nihil corporis doloribus quo laboriosam. Eos nihil ipsa necessitatibus!</p>
