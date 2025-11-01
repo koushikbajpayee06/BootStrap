@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offcanvus</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+<body class="p-3">
+    <nav class="d-flex justify-content-between p-3 border border-1">
+        <div>
+            <button class="bi bi-justify btn btn-dark" data-bs-toggle="offcanvas" data-bs-target="#menu"></button> <span class="h5">Amazon</span>
+        </div>
+        <button class="bi bi-cart4 btn btn-warning" data-bs-toggle="offcanvas" data-bs-target="#cart"></button>
+    </nav>
+    <div class="offcanvas offcanvas-start" id="menu">
+        <div class="offcanvas-header bg-dark text-white">
+            <h3>Amazon Shopping</h3>
+            <button class="btn btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-danger"> Home </li>
+                <li class="list-group-item list-group-item-danger my-3"> Shop </li>
+                <li class="list-group-item list-group-item-danger"> Pages </li>
+                <li class="list-group-item list-group-item-danger my-3"> Blog </li>
+                <li class="list-group-item list-group-item-danger"> Contact </li>
+            </ul>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-end" id="cart">
+        <div class="offcanvas-header bg-warning text-white">
+            <h3>Your Cart Items</h3>
+            <button class="btn btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <img src="../public/images/a1.png" height="200" width="200" >
+        </div>
+        <div class="offcanvas-body">
+            <img src="../public/images/a2.png" height="200" width="200" >
+        </div>
+        <div class="offcanvas-body">
+            <img src="../public/images/a3.png" height="200" width="200" >
+        </div>
+    </div>
+</body>
+</html>
